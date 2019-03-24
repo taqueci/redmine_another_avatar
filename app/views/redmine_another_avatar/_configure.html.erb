@@ -1,5 +1,5 @@
 <p>
   <label><%= l(:avatar_server_url) %></label>
-  <%= text_field_tag 'settings[avatar_server_url]', @settings[:avatar_server_url] %>
+  <%= text_field_tag 'settings[avatar_server_url]', @settings[:avatar_server_url], size: 60 %>
   <em class="info"><%= l(:label_example) %>: https://www.gravatar.com/avatar</em>
 </p>
