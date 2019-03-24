@@ -7,7 +7,7 @@ Redmine::Plugin.register :redmine_another_avatar do
   author_url 'https://github.com/taqueci'
 
   settings default: {
-    avatar_server_url: 'https//www.gravatar.com/avatar'
+    avatar_server_url: 'https://www.gravatar.com/avatar'
   }, partial: 'redmine_another_avatar/configure'
 end
 
